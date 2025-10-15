@@ -1,7 +1,7 @@
 {  
   "name": "guitarla",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
   "type": "module",
   "homepage": "https://alejovl04.github.io/GuitarLA/",
   "scripts": {
@@ -10,7 +10,7 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "react": "^19.1.1",
